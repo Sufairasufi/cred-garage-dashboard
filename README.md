@@ -30,7 +30,7 @@ npm run dev
 
 ## 🚀 Live Demo
 
-🔗 [👉 View Live on Vercel](https://cred-dashboard.vercel.app)
+🔗 [👉 View Live on Vercel](https://cred-garage-dashboard.vercel.app/)
 
 ---
 
@@ -64,6 +64,6 @@ npm run dev
 
 **Sufaira k**  
 Frontend Developer  
-[GitHub](https://github.com/sufairaashraf)
+[GitHub](https://github.com/Sufairasufi)
 
 ---
