@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚗 CRED Garage Inspired Dashboard
 
-## Getting Started
+A modern, responsive dashboard UI built with **Next.js** and **TailwindCSS**, inspired by CRED Garage. Includes profile summary, gamification, benefits section, reward progress, dark/light mode, skeletons, and smooth animations.
 
-First, run the development server:
+---
+
+## 🧰 Tech Stack
+
+- ✅ React (Next.js with App Router)
+- ✅ TailwindCSS for styling
+- ✅ Framer Motion for animations
+- ✅ Lucide React Icons
+- ✅ LocalStorage (for dark/light mode)
+
+---
+
+## ⚙️ Setup Instructions
+
+To run this project locally:
 
 ```bash
+git clone https://github.com/sufairaashraf/cred-garage-dashboard.git
+cd cred-garage-dashboard
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Live Demo
 
-## Learn More
+🔗 [👉 View Live on Vercel](https://cred-dashboard.vercel.app)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Features Overview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 👤 User Profile Summary
+- Avatar, name, level
+- XP progress bar
+- Fully responsive
 
-## Deploy on Vercel
+### 🎁 Benefits Section
+- Card tiles with icons
+- Hover animations using Framer Motion
+- CTA buttons like "Claim", "View"
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 💎 Reward Points Progress
+- Radial SVG progress chart
+- Smooth % animation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🌓 Dark/Light Mode Toggle
+- Tailwind dark mode enabled
+- Saved to localStorage
+
+### ⏳ Skeleton Loaders
+- Fake loading simulation
+- Used `animate-pulse` class
+
+---
+
+## 👩‍💻 Author
+
+**Sufaira k**  
+Frontend Developer  
+[GitHub](https://github.com/sufairaashraf)
+
+---
