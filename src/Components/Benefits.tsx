@@ -33,7 +33,7 @@ const Benefits = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // 2 seconds delay
+    }, 2000); 
     return () => clearTimeout(timer);
   }, []);
 

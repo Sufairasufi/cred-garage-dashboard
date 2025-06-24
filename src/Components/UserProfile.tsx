@@ -6,7 +6,6 @@ const UserProfile = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate loading delay (2 sec)
     const timer = setTimeout(() => {
       setIsLoading(false);
     }, 2000);
@@ -49,8 +48,6 @@ const UserProfile = () => {
           <p className="text-sm text-gray-500 dark:text-gray-300">Level 5 Explorer 🚀</p>
         </div>
       </div>
-
-      {/* Progress bar */}
       <div className="mt-4">
         <div className="flex justify-between text-sm text-gray-500 dark:text-gray-400 mb-1">
           <span>XP</span>

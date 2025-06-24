@@ -9,7 +9,7 @@ const RewardPoints = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // 2 seconds fake loading
+    }, 2000); 
     return () => clearTimeout(timer);
   }, []);
 
