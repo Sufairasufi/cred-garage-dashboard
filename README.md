@@ -19,7 +19,7 @@ A modern, responsive dashboard UI built with **Next.js** and **TailwindCSS**, in
 To run this project locally:
 
 ```bash
-git clone https://github.com/sufairaashraf/cred-garage-dashboard.git
+git clone https://github.com/Sufairasufi/cred-garage-dashboard
 cd cred-garage-dashboard
 npm install
 npm run dev
